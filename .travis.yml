@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "4.1"
+
+# Run `gulp coveralls` to send data to Coveralls
+after_script:
+  - ./node_modules/.bin/gulp coveralls
+
+notifications:
+  email:
+    recipients:
+      - john.guignard@gmail.com
+    on_success: never
+    on_failure: change
+
+deploy:
+  provider: npm
+  email: "john.guignard@gmail.com"
+  api_key: "1529645fca79462ccce21c4d2df73267cdd5cc99"
+  on:
+    tags: true
