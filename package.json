@@ -1,0 +1,39 @@
+{
+  "name": "pi-validator-tv4",
+  "version": "1.0.0",
+  "description": "A JSON validator using tv4",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Picta-it/pi-validator-tv4.git"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "data",
+    "schema"
+  ],
+  "author": "Juaniyyoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Picta-it/pi-validator-tv4/issues"
+  },
+  "homepage": "https://github.com/Picta-it/pi-validator-tv4#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "pi-validator": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-eslint": "^1.1.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4"
+  }
+}
