@@ -1,0 +1,38 @@
+{
+  "rules": {
+    "strict": 0,
+
+    "indent": [
+      2,
+      2,
+      {
+        "VariableDeclarator": {
+          "var":   2,
+          "let":   2,
+          "const": 3
+        }
+      }
+    ],
+    "no-console": [1],
+    "no-unused-vars": [2, {"vars": "all", "args": "none"}],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ]
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended"
+}
