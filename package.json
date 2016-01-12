@@ -1,6 +1,6 @@
 {
   "name": "pi-validator-tv4",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A JSON validator using tv4",
   "main": "index.js",
   "scripts": {
